@@ -12,11 +12,14 @@ namespace GestaoComercial.website.Models
     {
         [Key]
         public Guid Id { get; set; }
+
         [Required]
         [StringLength(50)]
         public string Nome { get; set; }
+
         [StringLength(255)]
         public string Descricao { get; set; }
+
         [Required]
         public decimal Valor { get; set; }
     }

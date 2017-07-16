@@ -9,7 +9,7 @@ namespace GestaoComercial.website.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(GestaoComercial.website.Models.ApplicationDbContext context)
